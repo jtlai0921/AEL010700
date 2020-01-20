@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="Default.aspx" title="NB筆記型電腦"  description="NB">
+		<siteMapNode url="IBM.aspx" title="IBM筆記型電腦"  description="IBM" >
+			<siteMapNode url="X32.aspx" title="X32筆記型電腦"  description="X32" />
+			<siteMapNode url="T43.aspx" title="T43筆記型電腦"  description="T433" />
+		</siteMapNode>
+		<siteMapNode url="HP.aspx" title="HP筆記型電腦"  description="HP" >
+			<siteMapNode url="nc6200.aspx" title="nc6200筆記型電腦"  description="nc6200"/>
+			<siteMapNode url="nx6130.aspx" title="nx6130筆記型電腦"  description="nx6130"/>
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

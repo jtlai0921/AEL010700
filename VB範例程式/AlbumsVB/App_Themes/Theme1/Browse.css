@@ -1,0 +1,142 @@
+﻿@import url(basic.css);
+
+/*
+table
+{
+	table-layout:fixed;
+}
+*/
+
+
+#content
+{
+	background-image: url('../../Images/Flower-Blue.jpg');
+	background-repeat:repeat;
+	height:680px;
+}
+
+#content-inside
+{
+	top:0px;
+}
+
+#content Table
+{
+	text-align:center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
+#navigation
+{
+	clear: both;
+	width: 100%;
+	height: 40px;
+	background-color: #CCFF99;
+	vertical-align: middle;
+}
+
+
+#nav-home
+{
+	float:left;
+	position:relative;
+	width:15%;
+}
+ 
+#navi-button
+{
+	 float:left;
+	 text-align:center;
+	 position:relative;
+	 margin-left:auto;
+	 margin-right:auto;
+	 border:sloid 2px blue;
+	 width:70%;
+}
+
+#nav-right
+{
+	float:left;
+	position:relative;
+	width:15%;
+}
+
+
+
+#photoIndex
+{
+	clear:both;
+	text-align:center;
+	border:dash 2px blue;
+	width:100%;
+}
+
+#navi-Photos
+{
+}
+
+table[id="dlPhotos"]
+{
+	width:988px !important;
+	table-layout:fixed;
+}
+
+
+table[id="dlPhotos"] tr
+{
+	vertical-align:top;
+}
+
+table[id="dlPhotos"] tr td
+{
+	/*border:solid 3px blue;*/
+}
+
+table[id="dlPhotos"] tr td input:hover
+{
+	border:solid 3px red !important;
+}
+
+
+/*主相片*/
+#fullImageStyle input
+{
+	max-height:450px !important;
+	max-width:500px !important;
+	border:solid 1px gray !important;
+}
+
+#fullImageStyle input[name*="fullImage"]:hover
+{
+	border:solid 1px gray !important;
+	
+}
+
+#navi-Photos tr td
+{
+	max-width:144px !important;
+	border:solid 2px yellow;
+}
+
+
+/*底部7張相片導覽列*/
+.Photo
+{
+	max-height:100px;
+	max-width:120px;
+	margin-left:10px;
+	margin-right:10px;
+	border:solid 1px gray !important;
+}
+
+
+.PhotoActive
+{
+	max-height:100px;
+	max-width:120px;
+	margin-left:10px;
+	margin-right:10px;
+	border:dashed 2px red !important;
+}

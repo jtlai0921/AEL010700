@@ -1,0 +1,114 @@
+﻿@import url(basic.css);
+
+
+
+#content
+{
+	background-image: url('../../Images/BlueTexture.jpg');
+	height:auto;
+}
+
+
+#MenuBar
+{
+	width:100%;
+	text-align:center;
+}
+
+#gvAlbums
+{
+	table-layout:inherit;
+	font-size:inherit;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
+#gvAlbums tr:hover
+{
+	background-image:url('../../Images/GradientBar_blue.png');
+}
+
+
+#gvAlbums input[name*="TextBox"]
+{
+	background-color:white;
+}
+
+#gvAlbums input[name*="TextBox"]:hover
+{
+	border:dashed 1px red;
+	background-color:#ffccff;
+}
+
+#gvPhotos
+{
+	table-layout:inherit;
+	font-size:inherit;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/*新增Table的樣式設定*/
+#detail 
+{
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background-color:White;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
+#detail tr td
+{
+	border:solid 1px black;
+	margin:0px;
+	padding:0px;
+	border-spacing:0px;
+	height:25px;
+}
+
+
+.tblHeader
+{
+	background-color:#9999ff;
+}
+
+
+.column1
+{
+	width: 150px;
+	background-color: #dbe6f5;
+}
+
+.column2
+{
+	text-align:center;
+	width: 200px;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+
+.column2 input[type="text"]
+{
+	vertical-align:middle;
+	border:dashed 2px lightblue;
+	background-color:#ffff99;
+}
+
+.column2 input[type="text"]:hover
+{
+	vertical-align:middle;
+	border:dashed 2px lightblue;
+	background-color:#ffccff;
+}
+
+.tblFooter
+{
+	background-color: #9999ff;
+}

@@ -1,0 +1,17 @@
+﻿Private Function getLength(ByVal a As String, ByVal b As String) As Decimal
+    '斜邊c，預設值為-1
+    Dim valueC As Decimal = -1
+    '判斷a與b是否為數字
+    If IsNumeric(a) And IsNumeric(b) Then
+        '斜邊a，以CDec將String型別轉換成Decimal型別
+        Dim valueA As Decimal = CDec(a)
+        '斜邊b，以CDec將String型別轉換成Decimal型別
+        Dim valueB As Decimal = CDec(b)
+        If valueA > 0 And valueB > 0 Then
+            '計算a+b的平方根
+            valueC = Math.Sqrt(Math.Pow(valueA, 2) + Math.Pow(valueB, 2))
+        End If
+    End If
+
+    Return valueC   '回傳c
+End Function

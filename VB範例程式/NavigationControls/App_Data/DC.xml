@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root url="Default.aspx" name="DC數位相機"  describe="DC">
+  <Parent url="SONY.aspx" name="SONY數位相機"  describe="SONY" >
+    <Child url="T7.aspx" name="T7數位相機"  describe="T7" />
+    <Child url="T5.aspx" name="T5數位相機"  describe="T5" />
+  </Parent>
+  <Parent url="CASIO.aspx" name="CASIO數位相機"  describe="CASIO" >
+    <Child url="P700.aspx" name="P700數位相機"  describe="P700" />
+    <Child url="S500.aspx" name="S500數位相機"  describe="S500" />
+  </Parent>
+</Root>

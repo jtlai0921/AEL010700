@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root url="Default.aspx" name="NB筆記型電腦"  describe="NB">
+  <Parent url="IBM.aspx" name="IBM筆記型電腦"  describe="IBM" >
+    <Child url="X32.aspx" name="X32筆記型電腦"  describe="X32" />
+    <Child url="T43.aspx" name="T43筆記型電腦"  describe="T43" />
+  </Parent>
+  <Parent url="HP.aspx" name="筆記型電腦"  describe="主機板" >
+    <Child url="nc6200.aspx" name="nc6200筆記型電腦"  describe="nc6200" />
+    <Child url="nx6130.aspx" name="nx6130筆記型電腦"  describe="nx6130" />
+  </Parent>
+</Root>

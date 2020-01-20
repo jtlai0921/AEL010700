@@ -1,0 +1,38 @@
+﻿/*
+body
+{
+	min-width: 1024px;
+	background-image: url('../../Images/Pattern1.png');
+	background-repeat: repeat;
+	background-attachment:scroll;
+	font-size:12pt;
+}
+
+
+#wrapper
+{
+	width:1024px;
+	margin-right: auto;
+	margin-left:auto;
+}
+*/
+
+#wrapper table
+{
+	margin-right: auto;
+	margin-left:auto;
+	border:dashed 2px yellow;
+}
+
+#content a
+{
+	background-color:Transparent;
+	color:White;
+}
+
+#content a:hover
+{
+	background-color:Transparent;
+	color:White;
+	border:solid 2px yellow;
+}

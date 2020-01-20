@@ -1,0 +1,53 @@
+﻿.album
+{
+	width:300px;
+	height:300px;
+	border:solid 1px;
+}
+
+#Picture
+{
+	width:180px;
+	height:180px;
+	text-align: center;
+	border:dashed 1px gray;
+	border-collapse:collapse;
+}
+
+#Picture:hover
+{
+	 background-color:lightpink;
+	 /*filter:alpha(opacity=50);*/
+}
+
+#Picture *
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.PicBG
+{
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	background-image: url('../../Images/Flower.png');
+	background-repeat: no-repeat;
+
+}
+
+.PicBG a
+{
+	position: relative;
+	top: 25px;
+}
+
+.PicThumb
+{
+	border:solid 1px gray;
+	max-height:100px;
+	max-width:100px;
+	/*min-width:100px;*/
+}

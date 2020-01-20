@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class login : System.Web.UI.Page 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        //設定登入控制項成為焦點
+        Login1.Focus();
+    }
+}

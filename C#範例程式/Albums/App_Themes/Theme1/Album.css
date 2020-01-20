@@ -1,0 +1,16 @@
+﻿@import url(basic.css);
+@import url(ThumbStyle.css);
+
+#content
+{
+	background-image: url('../../Images/FruitsPurple.jpg');
+}
+
+
+#content Table
+{
+	text-align:center;
+	margin-right: auto;
+	margin-left:auto;
+}
+

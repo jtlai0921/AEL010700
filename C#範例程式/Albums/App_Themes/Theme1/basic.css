@@ -1,0 +1,215 @@
+﻿*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	min-width: 1024px;
+	background-image: url('../../Images/Pattern1.png');
+	background-repeat: repeat;
+	background-attachment:scroll;
+	font-size:12pt;
+}
+
+
+#wrapper
+{
+	width:988px;
+	float:none;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#header
+{
+	text-align: center;
+	background-position: center top;
+	background-color: #1A629D;
+	font-size: larger;
+	height: 150px;
+	background-image: url('../../Images/BlueMan.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	width: 988px;
+}
+
+/*登入按鈕之樣式*/
+.loginStatus
+{
+	text-align: right;
+	text-decoration: none;
+	margin-right:10px;
+}
+
+#footer
+{
+	clear: both;
+	background-position: center top;
+	background-color: #6699FF;
+	width: 988px;
+	height: 50px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+#footer div
+{
+	position:relative;
+	top:15px;
+	left: 0px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*Menu選單樣式*/
+#menu
+{	
+ 	width:180px;
+ 	float:right;
+    text-align:left;
+    list-style-type:none;
+    list-style-position:inside;
+}
+
+#menu ul
+{
+	color: #0066CC;
+	background-color: #F0F0F0;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border:solid 1px;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #666666;
+	border-left-color: #CCCCCC;
+}
+
+#menu li
+{
+	color: #0066CC;
+	background-color: #F0F0F0;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border-bottom:dashed 1px;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #666666;
+	border-left-color: #CCCCCC;
+}
+
+/*Content樣式*/
+#content
+{
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height:650px;
+	width: 100%;
+	max-width:988px;
+}
+
+#content-inside
+{
+	text-align: center;
+	position: relative;
+	top:15px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:650px;
+	max-width:988px;
+	left: 0px;
+}
+
+
+/*首頁超連結樣式*/
+#home
+{
+	text-align: right;
+	text-decoration: none;
+	float: right;
+	top: 70px;
+	position: relative;
+	margin-right:10px;
+	height:30px;
+	width:500px;
+	font-size:12pt;
+	z-index:100;
+}
+
+#home a
+{
+	text-decoration:none;
+	background-color:inherit;
+	color:white;
+	font-weight:bold;
+	font-size:12pt;
+	height:30px;
+	border: 0px;
+	z-index:110;
+}
+
+/**/
+#home a:hover
+{
+	background-position: center top;
+	text-decoration: none; 
+	background-image: url('../../Images/Bg_yellow.png');
+	background-repeat: no-repeat;
+	font-weight:bolder;
+	z-index:101;
+}
+
+
+/*分頁按鈕樣式*/
+#pager
+{
+	vertical-align:middle;
+	margin-top:10px;
+}
+
+#pager *
+{
+	vertical-align:middle;
+}
+
+#pager a
+{
+	text-decoration:none;
+	background-color:lightblue;
+	color:black;
+	font-weight:bold;
+	font-size:12pt;
+	/*圓點Pager
+	background-image: url('../../Images/PinkCircle.png') !important;
+    background-color:Transparent;
+    background-repeat:no-repeat;
+	*/
+}
+
+#pager a:hover
+{
+	text-decoration: none;
+	background-color:Purple;
+	color: white;
+}
+
+.pager
+{
+	border: dashed 1px black;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	padding-top:5px;
+	margin-left:5px;
+}
+

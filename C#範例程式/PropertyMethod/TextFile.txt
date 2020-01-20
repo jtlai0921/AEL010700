@@ -1,0 +1,22 @@
+﻿protected void Page_Load(object sender, EventArgs e)
+{
+    //使用建構函式一來初始化Mary物件
+    People Mary = new People("Mary", "Could", 165, 50, 18, false);
+
+    //將Mary的資料顯示出來
+    Response.Write("<H2>以建構函式設定物件初始值</H2>");
+    Response.Write("LastName：" + Mary.LastName + "<BR/>");
+    Response.Write("firstName：" + Mary.FirstName + "<BR/>");
+    Response.Write("height：" + Mary.Height + "<BR/>");
+    Response.Write("weight：" + Mary.Weight + "<BR/>");
+    Response.Write("age：" + Mary.Age + "<BR/>");
+    Response.Write("gender：" + (Mary.Gender==true?"男":"女") + "<BR/>");
+	...
+
+    //使用建構函式二來初始化Clare物件
+    People Clare = new People("Clare",false);
+    //將Clare的資料顯示出來
+    Response.Write("<H2>使用建構函式二來初始化Clare物件</H2>");
+    Response.Write("LastName：" + Clare.LastName + "<BR/>");
+    Response.Write("gender：" + (Clare.Gender == true ? "男" : "女") + "<BR/>");
+}

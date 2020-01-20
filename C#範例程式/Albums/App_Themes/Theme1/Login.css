@@ -1,0 +1,30 @@
+﻿@import url(basic.css);
+
+
+#content
+{
+	background-image: url('../../Images/FruitsPurple.jpg');
+}
+
+
+#loginStyle
+{
+	position:relative;
+	top: 150px;
+}
+
+#loginStyle Table
+{
+	background-image: url('../../Images/iSphere128.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#loginStyle Table Input:hover
+{
+	background-color:lightblue;
+}
+
+

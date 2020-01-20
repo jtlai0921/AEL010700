@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="總公司"  description="總公司">
+    <siteMapNode url="B.aspx" title="行政部"  description="行政部">
+      <siteMapNode url="C.aspx" title="人事課"  description="人事課" />
+      <siteMapNode url="D.aspx" title="總務課"  description="總務課" />
+    </siteMapNode>
+    <siteMapNode url="E.aspx" title="業務部"  description="業務部">
+      <siteMapNode url="F.aspx" title="亞洲業務單位"  description="亞洲業務單位" />
+      <siteMapNode url="G.aspx" title="歐洲業務單位"  description="歐洲業務單位" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

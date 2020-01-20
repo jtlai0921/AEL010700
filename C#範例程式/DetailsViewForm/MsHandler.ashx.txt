@@ -1,0 +1,60 @@
+﻿<%@ WebHandler Language="C#" Class="MsHandler" %>
+using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Web;
+using System.Web.Caching;
+
+public class MsHandler : IHttpHandler 
+{
+
+    public void ProcessRequest (HttpContext context) 
+    {
+        // Get the image ID from querystring, and use it to generate a cache key.
+        String imageID = context.Request.QueryString["PhotoID"];
+        String cacheKey = context.Request.CurrentExecutionFilePath + ":" + imageID;
+        Byte[] imageBytes;
+
+        // Check if the cache contains the image.
+        Object cachedImageBytes = context.Cache.Get(cacheKey);
+        if (cachedImageBytes != null)
+        {
+            imageBytes = (Byte[])cachedImageBytes;
+        }
+
+        else
+
+        {
+            // Get image from business layer, and save it into a Byte array as JPEG.
+            Image im = PhotoLibrary.GetImage("PhotoID");
+            MemoryStream stream = new MemoryStream();
+            im.Save(stream, ImageFormat.Jpeg);
+            stream.Close();
+            im.Dispose();
+            imageBytes = stream.GetBuffer();
+            
+            // Store it in the cache (to be expired after 2 hours).
+            context.Cache.Add(cacheKey, imageBytes, null,
+            DateTime.MaxValue, new TimeSpan(2, 0, 0),
+            CacheItemPriority.Normal, null);
+        }
+
+        // Send back image.
+        context.Response.ContentType = "image/jpeg";
+        context.Response.Cache.SetCacheability(HttpCacheability.Public);
+        context.Response.BufferOutput = false;
+        context.Response.OutputStream.Write(imageBytes, 0, imageBytes.Length);
+
+    }
+    
+    public bool IsReusable 
+    {
+
+        get 
+        {
+            return false;
+        }
+    }
+
+}

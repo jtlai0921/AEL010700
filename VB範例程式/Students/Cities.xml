@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cities>
+  <City CityID="1" CityName="基隆" />
+  <City CityID="2" CityName="台北" />
+  <City CityID="3" CityName="桃園" />
+  <City CityID="4" CityName="新竹" />
+  <City CityID="5" CityName="苗栗" />
+  <City CityID="6" CityName="台中" />
+  <City CityID="7" CityName="彰化" />
+  <City CityID="8" CityName="南投" />
+  <City CityID="9" CityName="雲林" />
+  <City CityID="10" CityName="嘉義" />
+  <City CityID="11" CityName="台南" />
+  <City CityID="12" CityName="高雄" />
+  <City CityID="13" CityName="屏東" />
+  <City CityID="14" CityName="宜蘭" />
+  <City CityID="15" CityName="花蓮" />
+  <City CityID="16" CityName="台東" />
+  <City CityID="17" CityName="馬祖" />
+  <City CityID="18" CityName="金門" />
+  <City CityID="19" CityName="綠島" />
+  <City CityID="20" CityName="蘭嶼" />
+  <City CityID="21" CityName="澎湖" />
+</Cities>

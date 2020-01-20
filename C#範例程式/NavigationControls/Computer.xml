@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root url="Default.aspx" name="電腦產品總覽"  describe="電腦產品">
+  <Parent url="CPU.aspx" name="CPU處理器"  describe="CPU" >
+    <Child url="INTEL.aspx" name="INTEL處理器"  describe="INTEL" />
+    <Child url="AMD.aspx" name="AMD處理器"  describe="AMD" />
+  </Parent>
+  <Parent url="MainBorad.aspx" name="主機板"  describe="主機板" >
+    <Child url="ASUS.aspx" name="華碩主機板"  describe="華碩" />
+    <Child url="GIGAByte.aspx" name="技嘉主機板"  describe="技嘉" />
+    <Child url="MSI.aspx" name="微星主機板"  describe="微星" />
+  </Parent>
+  <Parent url="HDD.aspx" name="硬碟"  describe="硬碟" >
+    <Child url="Seagate.aspx" name="Seagate硬碟"  describe="Seagate" />
+    <Child url="Maxtor.aspx" name="Maxtor硬碟"  describe="Maxtor" />
+  </Parent>
+</Root>

@@ -1,0 +1,38 @@
+﻿table
+{
+	
+}
+
+#TreeView1t1
+{
+	border-bottom: dashed 1px blue;
+}
+
+table tr td a[id*="TreeView1t"]:hover
+{
+	background-color:Yellow;
+	color:Black;
+	border:solid 1px red;
+}
+
+table tr td a[class*="TreeView1_3"]:hover
+{
+	background-color:lightblue;
+	color:inherit;
+	border:inherit;
+}
+
+
+table tr td a[id$="i"]:hover
+{
+	background-color:inherit;
+	color:inherit;
+	border:inherit;
+}
+
+a:active
+{
+	background-color:red;
+}
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="Default.aspx" title="DC數位相機"  description="DC">
+		<siteMapNode url="SONY.aspx" title="SONY數位相機"  description="SONY" >
+			<siteMapNode url="T7.aspx" title="T7數位相機"  description="T7" />
+			<siteMapNode url="T5.aspx" title="T5數位相機"  description="T5" />
+		</siteMapNode>
+		<siteMapNode url="CASIO.aspx" title="CASIO數位相機" description="CASIO" >
+			<siteMapNode url="P700.aspx" title="P700數位相機"  description="P700" />
+			<siteMapNode url="S500.aspx" title="S500數位相機"  description="S500" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

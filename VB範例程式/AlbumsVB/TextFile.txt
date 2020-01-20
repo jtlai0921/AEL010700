@@ -1,0 +1,4 @@
+﻿<connectionStrings>
+	<add name="ApplicationServices" connectionString="Data Source=.;Initial Catalog=aspnet4db;Persist Security Info=True;User ID=sa;Password=test" providerName="System.Data.SqlClient"/>
+	<add name="AlbumDBConnectionString1" connectionString="Data Source=.;Initial Catalog=AlbumDB;Persist Security Info=True;User ID=sa;Password=test" providerName="System.Data.SqlClient"/>
+</connectionStrings>

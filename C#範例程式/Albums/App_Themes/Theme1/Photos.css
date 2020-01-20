@@ -1,0 +1,42 @@
+﻿@import url(basic.css);
+@import url(ThumbStyle.css);
+
+#content
+{
+	background-image:none;
+	background-color:#e2ffc6;
+}
+
+#content-inside
+{
+	width:988px;
+	top:0px;
+	left: 0px;
+}
+
+#dlPhotos
+{
+	margin:10px;
+	border:0px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#Pwd
+{
+	height:100%;
+	width:100%;
+	border:solid 2px black;
+}
+
+input[Type="Text"]
+{
+	background-color:#f8f4c1;
+	text-align:left !important;
+}
+
+#txtAlbumName
+{
+   margin-top:10px;
+}
+

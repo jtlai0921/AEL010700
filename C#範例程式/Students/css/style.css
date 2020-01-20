@@ -1,0 +1,141 @@
+
+/** Common Styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background: #393939;
+	line-height: 25px;
+	text-align: justify;
+	color: #000000;
+}
+
+
+
+a {
+	color: #1F6196;
+}
+
+/** Header Style Starts Here */
+
+#header {
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 25px 0 10px 70px;
+	background: url(../images/UserLogo.png) no-repeat left 90%;
+	text-transform: lowercase;
+	font-size: 36px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+/** Menu Style Starts Here */
+
+
+#menu {
+	width: 760px;
+	height: 43px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background: url(../images/image01.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+	padding-top: 10px;
+}
+
+#menu li {
+	display:inline;
+	font-size:14px;
+}
+
+
+#menu a {
+	padding: 0 20px;
+	background: url(../images/image06.gif) no-repeat right 50%;
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+#menu a:hover 
+{
+    background-color:White;
+    color:Black;
+}
+#menu .first a  {
+	padding-left: 0;
+}
+
+/** Page Style Starts Here */
+
+#page {
+	width: 800px !important;
+	min-height:450px;
+	margin: 0 auto;
+	padding: 0;
+	/*background-color:White;*/
+	max-width:800px;
+}
+
+/*Content內容樣式*/
+#content
+{
+    float: left;
+    width: 800px !important;
+    background-image: url(../images/Flower-Pink.jpg);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: repeat;
+    min-height:450px !important; 
+}
+
+
+#content h2 {
+	margin: 0;
+	padding: 0px 0 10px 0;
+	text-transform: lowercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#content td a:hover {
+
+     background-color:lightpink;
+}
+
+/** Footer Style Starts Here */
+
+#footer {
+	width: 800px;
+	height: 43px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	background: url(../images/image02.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+

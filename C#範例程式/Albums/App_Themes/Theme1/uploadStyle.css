@@ -1,0 +1,57 @@
+﻿@import url(basic.css);
+
+#content
+{
+	background-image: url('../../Images/BlueTextureSphere.png');
+}
+
+#content-inside
+{
+	text-align:left;
+	width:948px;
+}
+
+#content-inside Select
+{
+	 vertical-align:middle;
+}
+
+
+#uploadItem
+{
+	list-style-type: none;
+	line-height: 30px;
+	width: 100%;
+}
+
+#uploadItem input
+{
+	width:80%;
+}
+
+#uploadItem input:hover
+{
+	background-color: #CC99FF;
+}
+
+.uploadControl
+{
+	width: 80%;
+	background-color: white;
+	color: #FF0000;
+}
+
+
+#btnUpload
+{
+	width:124px;
+	height:38px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="Default.aspx" title="PC個人電腦"  description="PC">
+		<siteMapNode url="CPU.aspx" title="CPU處理器"  description="CPU" >
+			<siteMapNode url="INTEL.aspx" title="INTEL處理器"  description="INTEL" />
+			<siteMapNode url="AMD.aspx" title="AMD處理器"  description="AMD" />
+		</siteMapNode>
+		<siteMapNode url="MainBorad.aspx" title="主機板"  description="主機板" >
+			<siteMapNode url="ASUS.aspx" title="華碩主機板"  description="華碩" />
+			<siteMapNode url="GIGAByte.aspx" title="技嘉主機板"  description="技嘉" />
+			<siteMapNode url="MSI.aspx" title="微星主機板"  description="微星" />
+		</siteMapNode>
+		<siteMapNode url="HDD.aspx" title="硬碟"  description="硬碟" >
+			<siteMapNode url="Seagate.aspx" title="Seagate硬碟"  description="Seagate" />
+			<siteMapNode url="Maxtor.aspx" title="Maxtor硬碟"  description="Maxtor" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
